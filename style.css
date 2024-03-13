@@ -3,28 +3,51 @@ body {
 }
 
 .modal {
-  width: 50vw;
-  height: 40vh;
+  width: 70vw;
+  height: 20vh;
   border: 15px solid #5bcef3;
   background-color: #b4eafb;
   border-radius: 10px;
   font-size: 30px;
+  position: absolute;
+  left: 200px
 }
 
 button {
   width: 80px;
   height: 25px;
+
 }
 
 .exit {
   color: black;
   width: 30px;
   border-radius: 3px;
+  position: absolute;
+  top: 0;
+  right: 0;
+
 }
 
 .ok {
   background-color: #28a745;
   color: white;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 30px);
 }
 
+
 /* sem přijdou tvoje styly */
+
+.boxik {
+  border: 3px dashed rgb(163, 33, 55);
+  font-size: 20px;
+  font-style: italic;
+  background-color: pink;
+  width: 50%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+}
